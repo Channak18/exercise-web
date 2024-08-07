@@ -95,6 +95,35 @@
 # for i in range (len(text)):
 #     print(text[lastIndex - i])
 
-text = input("inter the text: ")
-for i in range(text.upper()):
-    print(text)
+# Homework
+#  ex1
+
+# text = input("inter your text: ")
+# index = ""
+# for i in range(len(text)):
+#     if text[i].isupper():
+#         index += text[i]
+# print(index)
+
+# ex2
+
+text = input("inter your text: ")
+result = ""
+index = 0
+while index < (len(text)):
+    if index % 2 != 0:
+        result += text[index]
+    index += 1
+print(result)
+
+# ex3
+
+# text = input("inter your text: ")
+# index = 0
+# result = True
+# while result == True:
+#     if text[index] == "A" or text[index] == "a":
+#         result = False
+#     else:
+#         index += 1
+# print("First index of letter A is:", index)
